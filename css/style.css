@@ -1,0 +1,90 @@
+html, body {
+  margin: 0;
+  padding: 0;
+
+}
+body{
+  height: 90ch;
+  background: linear-gradient(to bottom, black, rgb(22, 72, 209));
+}
+canvas {
+  display: block;
+
+  position: relative;
+  left: 50ch;
+  top: 3ch;
+
+  border: 1ch solid rgb(161, 169, 245);
+  /* border-radius: 1vw; */
+  box-shadow: 0px 0px 25px 5px rgb(238, 190, 59);
+}
+
+.left-box{
+  position: fixed;
+  bottom: 11ch;
+  top: 3ch;
+  left: 2ch;
+
+  height: 76ch;
+  width: 43ch;
+
+  background: linear-gradient(to bottom, rgb(11, 22, 105), rgb(43, 38, 13));
+  border: 5px solid rgb(161, 169, 245);
+  box-shadow: 0px 0px 20px 5px rgb(255, 250, 236);
+}
+.right-box{
+  position: fixed;
+  bottom: 5ch;
+  top: 3ch;
+  left: 130ch;
+
+  height: 76ch;
+  width: 40ch;
+
+  /* background: linear-gradient(to bottom, rgb(74, 90, 196), rgb(172, 146, 31)); */
+  background: linear-gradient(to bottom, rgb(11, 22, 105), rgb(43, 38, 13));
+  border: 5px solid rgb(161, 169, 245);
+  box-shadow: 0px 0px 20px 5px rgb(252, 249, 242);
+  /* background-color: aliceblue; */
+}
+
+#left-img{
+  position: relative;
+  right: 9ch;
+  bottom: 2ch;
+
+  /* font-family: 'Press Start 2P', cursive; */
+}
+#right-img{
+  position: relative;
+  right: 11ch;
+  bottom: 2ch;
+
+  /* font-family: 'Press Start 2P', cursive; */
+}
+
+.title{
+  font-family: 'Press Start 2P', cursive;
+  color: aliceblue;
+}
+
+#A{
+  position: relative;
+  left: 10ch;
+  top: 5ch;
+}
+#B{
+  position: relative;
+  left: 16ch;
+  bottom: 10ch;
+}
+#C{
+  position: relative;
+  left: 15ch;
+  top: 5ch;
+}
+#D{
+  position: relative;
+  left: 7ch;
+  bottom: 10ch;
+}
